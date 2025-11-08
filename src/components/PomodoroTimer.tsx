@@ -28,11 +28,11 @@ const PomodoroTimer = () => {
                 return 0
               }
               return prevMinutes - 1
-            });
+            })
             return 59
           }
           return prevSeconds - 1
-        });
+        })
       }, 1000)
     } else {
       if (intervalRef.current) {
